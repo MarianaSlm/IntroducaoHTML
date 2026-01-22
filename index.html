@@ -1,55 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-    <link heref="index.css" rel="stylesheet" />
-  </head>
+    <link href="index.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous" />
+</head>
 
-  <body>
-    <label for="nacionalidade">
-      Você é:
-      <input type="radio" name="nacionalidade" value="brasileiro" />
-      brasileiro
-    </label>
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a href="/index.html" class="navbar-brand">Introdução</a>
 
-    <label>
-      <input type="radio" name="nacionalidade" value="estrangeiro" />
-      estrangeiro
-    </label>
+            <a href="/cadastro.html" class="btn btn-success">Cadastrar</a>
+        </div>
 
-    <div id="grupo-genero">
-      <label> <input type="radio" name="genero" />femenino>/label </label>
+    </nav> 
+      
+<div class="container col-xxl-8 px-4 py-5">
+<div class="d-flex row align-items-center py-5 bg-secondary">
+   <div class="bg-info col-sm-8 col-lg-6"> 
+    <img src="assets/hero_img.jpg" heigh="500" width="700" class="d-block mx-lg-auto img-fluid" alt="um desenho, bob sponja " />
+</div>
 
-      <label> <input type="radio" name="genero" />Masculino>/label </label>
-      <label> <input type="radio" name="genero" />outros>/label </label>
+<div class="col-lg-6">
+    <h1 class="display-5 fw-bold">Bob sponja no cinema por apenas R$ 11,99 até o dia 30 </h1>
+    <p class=""> Em todos os cinemas, não perca tempo!!!</p>
+
     </div>
 
-    <div id="selecao-estado">
-      <select>
-        <option>Espirito Santo</option>
-        <option>São Paulo</option>
-        <option>Rio de Janeiro</option>
-        <opition>Minas Gerasis</opition>
-      </select>
-    </div>
+</div>
 
-    <div>
-      <label for="compartilhar-informacoes">
-        <input id=" compartilhar-informacoes" type="checkbox" />
-        desejo compartilhar minhas informações
-      </label>
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+</body>
 
-    <div>
-      <label for="">
-        Volume
-        <input type="range" />
-      </label>
-    </div>
-
-    <a href="cadastro.html">Faça seu cadastro aqui</a>
-    
-  </body>
 </html>
